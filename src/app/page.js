@@ -14,6 +14,15 @@ export default function Home() {
             <h1 style={{ textAlign: 'center', color: '#2c3e50' }}>צ׳יק-צ׳ק הובלות</h1>
             <h2 style={{ textAlign: 'center', color: '#2c3e50' }}>מובילים באיכות ובמקצועיות</h2>
 
+            <p style={{ fontSize: '28px', color: '#2c3e50', textAlign: 'center' }}>
+                📞 <strong>התקשרו עכשיו:</strong>{' '}
+                <a href='tel:0542343033' style={{ color: '#2980b9', textDecoration: 'none', textAlign: 'center' }}>
+                    054-2343033
+                </a>
+            </p>
+            <br/>
+            <hr></hr>
+            <br/>
             <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#34495e' }}>
                 <strong>שירותי הובלה לכל מטרה</strong>
                 <br />
