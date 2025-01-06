@@ -2,7 +2,6 @@
 import Image from 'next/image';
 
 export default function Home() {
-
     const encodedMessage = encodeURIComponent('אני מעוניין לקבל הצעת מחיר להובלה');
     const whatsappLink = `https://wa.me/0542343033?text=${encodedMessage}`;
 
@@ -78,38 +77,40 @@ export default function Home() {
                 <h3 style={{ color: '#e74c3c' }}>מתכננים מעבר? אנחנו כאן כדי לעזור!</h3>
                 <div>
                     <p style={{ fontSize: '28px', color: '#2c3e50' }}>
-                        📞 <strong>התקשרו עכשיו:</strong> <br />
+                        <strong>התקשרו עכשיו:</strong> <br />
                         <a href='tel:0542343033' style={{ color: '#2980b9', textDecoration: 'none' }}>
                             054-2343033
                         </a>
                     </p>
-                    <br />
-                    <br />
                     <section>
-                        <a
-                            href={whatsappLink}
-                            target='_blank'
-                            rel='noopener noreferrer'
-                            style={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                width: '50px',
-                                height: '50px',
-                                backgroundColor: '#25D366',
-                                borderRadius: '50%',
-                                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-                                textDecoration: 'none',
-                            }}
-                        >
-                            <Image
-                                src='/whatsapp.gif'
-                                alt='whatsapp-us'
-                                width={100}
-                                height={100}
-                                alignContent={'center'}
-                            />
-                        </a>
+                        <p style={{ fontSize: '28px', color: '#2c3e50' }}>
+                            <strong>זמינים גם בוואטסאפ:</strong> <br />
+                            <br />
+                            <a
+                                href={whatsappLink}
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    width: '50px',
+                                    height: '50px',
+                                    backgroundColor: '#25D366',
+                                    borderRadius: '50%',
+                                    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+                                    textDecoration: 'none',
+                                }}
+                            >
+                                <Image
+                                    src='/whatsapp.gif'
+                                    alt='whatsapp-us'
+                                    width={100}
+                                    height={100}
+                                    alignContent={'center'}
+                                />
+                            </a>
+                        </p>
                     </section>
                 </div>
             </section>
