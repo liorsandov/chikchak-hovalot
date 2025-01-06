@@ -36,8 +36,6 @@ export default function Home() {
                     <li>✔️ הובלות דירות ומשרדים</li>
                     <li>✔️ שירותי אריזה ופריקה מקצועיים</li>
                     <li>✔️ הובלות קטנות לכל יעד</li>
-                    <li>✔️ שירותי מנוף למקומות גבוהים</li>
-                    <li>✔️ ביטוח מלא לכל הובלה</li>
                 </ul>
             </section>
 
@@ -70,9 +68,6 @@ export default function Home() {
                 }}
             >
                 <h3 style={{ color: '#e74c3c' }}>מתכננים מעבר? אנחנו כאן כדי לעזור!</h3>
-                <p style={{ fontSize: '16px', color: '#34495e' }}>
-                    השאירו פרטים עכשיו וקבלו הצעת מחיר מותאמת אישית – ללא התחייבות.
-                </p>
                 <p style={{ fontSize: '28px', color: '#2c3e50' }}>
                     📞 <strong>התקשרו עכשיו:</strong>{' '}
                     <a href='tel:0542343033' style={{ color: '#2980b9', textDecoration: 'none' }}>
